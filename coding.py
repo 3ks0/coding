@@ -7,7 +7,9 @@ sanat = kysymys.split()
 print (kysymys)
 if sanat[0] == 'montako':
     vastaus = random.randint(1,1000)
-    print(vastaus)
+    print('vastaus on noin', vastaus)
+if sanat[0] == 'oletko':
+    vastaus = random.randint(1,2)
     
 
 
